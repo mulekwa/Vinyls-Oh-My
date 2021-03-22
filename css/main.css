@@ -1,0 +1,194 @@
+/* Global element */
+body {
+  color: #3f3e3e;
+  font-family: 'Nunito', 'Montserrat', sans-serif;
+}
+
+/* Typography, Heading, Paragraphs, The whole Shabang! */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+}
+
+/* Heading */
+.title-heading {
+  font-size: 4rem;
+  font-family: Montserrat-bold;
+  color: #fff;
+  padding: 5% 0;
+}
+
+.sub-header {
+  font-size: 3.5rem;
+  font-family: Montserrat-bold;
+  text-align: center;
+  padding: 0 0 3% 0;
+}
+
+/* Global */
+.audio-title {
+  font-size: 1rem;
+}
+
+.sample-song {
+  width: 300px;
+  padding: 2.5% 0;
+  margin: auto;
+}
+
+.page-image {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.colored-section {
+  background: linear-gradient(to bottom right, #f15989 0%, #530a9d 100%);
+  color: #fff;
+  padding: 7% 0;
+}
+
+.white-header {
+  color: #fff;
+}
+
+/* Navigation */
+.navbar {
+  padding: 0 0 1.9rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+/* Home */
+#home {
+  background: linear-gradient(to bottom right, #8e2de2 0%, #4a00e0 100%);
+  padding: 3% 2% 5% 2%;
+}
+
+.home-text {
+  padding: 3% 7%;
+}
+
+.homepage-image {
+  text-align: center;
+}
+
+.home-start {
+  text-decoration: none;
+  color: #fff;
+}
+
+.home-image {
+  width: 90%;
+}
+
+.home-btn {
+  padding-top: 5px;
+}
+
+.fas {
+  padding-right: 5px;
+}
+
+/* Hip hop */
+#Hiphop {
+  margin: 5% 0 5% 0;
+}
+
+.hip-header {
+  color: #7800ff;
+}
+
+.left-side {
+  margin: auto;
+}
+
+/* RnB */
+.color-text {
+  color: #fff;
+}
+
+#Rnb {
+  margin: 5% 0;
+}
+
+/* Alternative */
+#Alter {
+  margin: 5% 0;
+}
+
+#Alter .sub-header {
+  color: #F37335;
+}
+
+/* Rock */
+#Rock {
+  background: linear-gradient(to bottom right, #c31432 0%, #240b36 100%);
+}
+
+/* Footer */
+#footer .container-fluid {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Tablet Sizes */
+@media (max-width:1280px) {
+
+  /* Home */
+  #home {
+    padding: 3% 2% 10% 2%;
+  }
+
+  .home-text {
+    text-align: center;
+  }
+
+  /* Global */
+  .page-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+
+  .title-heading {
+    font-size: 3rem;
+  }
+
+  /* Hip hop */
+  .sub-header {
+    font-size: 3rem;
+    padding: 0% 0 2% 0;
+    text-align: center;
+  }
+
+  .left-side {
+    margin: auto;
+  }
+}
+
+/* Mobile Site */
+@media (max-width:560px) {
+
+  /* Images */
+  .page-image {
+    display: block;
+    margin: 50px auto;
+    width: 65%;
+  }
+
+  .sub-header {
+    margin: 30px 0 5px 0;
+  }
+}
